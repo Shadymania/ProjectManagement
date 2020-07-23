@@ -1,0 +1,5 @@
+"Column Name","Data Type","Nullable","Default","Primary Key"
+"DISCOUNT_ID","NUMBER","No","","1"
+"PRODUCT_ID","NUMBER","Yes","",""
+"PRICE","NUMBER(8,2)","Yes","",""
+"PRODUCT_TYPE_ID","NUMBER","Yes","",""

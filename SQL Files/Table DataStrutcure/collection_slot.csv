@@ -1,0 +1,5 @@
+"Column Name","Data Type","Nullable","Default","Primary Key"
+"SLOT_ID","NUMBER(8,0)","No","","1"
+"SLOT_DATE","VARCHAR2(25)","Yes","",""
+"AVAILABLE","NUMBER(8,0)","Yes","",""
+"SLOT_TIME","VARCHAR2(25)","Yes","",""

@@ -1,0 +1,4 @@
+"Column Name","Data Type","Nullable","Default","Primary Key"
+"INVOICE_ID","NUMBER(8,0)","No","","1"
+"USER_ID","NUMBER(8,0)","Yes","",""
+"PRICE","NUMBER(8,2)","Yes","",""

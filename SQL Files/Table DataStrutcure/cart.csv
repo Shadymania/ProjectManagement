@@ -1,0 +1,5 @@
+"Column Name","Data Type","Nullable","Default","Primary Key"
+"CART_ID","NUMBER(8,0)","No","","1"
+"USER_ID","NUMBER(8,0)","Yes","",""
+"PRODUCT_ID","NUMBER(8,0)","Yes","",""
+"QUANTITY","NUMBER","Yes","",""

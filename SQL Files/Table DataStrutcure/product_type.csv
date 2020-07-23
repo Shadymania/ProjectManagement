@@ -1,0 +1,5 @@
+"Column Name","Data Type","Nullable","Default","Primary Key"
+"PRODUCT_TYPE_ID","NUMBER(8,0)","No","","1"
+"PRODUCT_TYPE_NAME","VARCHAR2(25)","No","",""
+"SHOP_ID","NUMBER(8,0)","Yes","",""
+"DESCRIPTION","VARCHAR2(3000)","Yes","",""

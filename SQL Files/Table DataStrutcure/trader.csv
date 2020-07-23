@@ -1,0 +1,8 @@
+"Column Name","Data Type","Nullable","Default","Primary Key"
+"TRADER_ID","NUMBER(8,0)","No","","1"
+"TRADER_NAME","VARCHAR2(25)","Yes","",""
+"DESCRIPTION","VARCHAR2(3000)","Yes","",""
+"USER_ID","NUMBER(8,0)","Yes","",""
+"MOBILE","VARCHAR2(25)","Yes","",""
+"STATUS","NUMBER","Yes","",""
+"PASSWORD","VARCHAR2(100)","Yes","",""

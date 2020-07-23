@@ -1,0 +1,7 @@
+"Column Name","Data Type","Nullable","Default","Primary Key"
+"ORDER_ID","NUMBER(8,0)","No","","1"
+"PRODUCT_ID","NUMBER(8,0)","Yes","",""
+"USER_ID","NUMBER(8,0)","Yes","",""
+"SLOT_ID","NUMBER(8,0)","Yes","",""
+"QUANTITY","NUMBER(8,0)","Yes","",""
+"STATUS","NUMBER","Yes","",""
