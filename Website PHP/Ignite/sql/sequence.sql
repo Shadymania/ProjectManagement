@@ -1,0 +1,4 @@
+DROP SEQUENCE seq_id;
+
+CREATE SEQUENCE seq_id
+    START WITH 1;

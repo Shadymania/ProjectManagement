@@ -1,0 +1,72 @@
+/**
+    Signup/Login page
+**/
+.login-signup-container {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    font-size: 14px;
+}
+
+.login-signup-box {
+    margin: auto;
+    background: var(--primary-bg-color);
+    color: var(--text-color);
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+.login-signup-box>form>input[type="text"],
+.login-signup-box>form>label,
+.login-signup-box>form>button,
+.login-signup-box>form>input[type="email"],
+.login-signup-box>form>input[type="date"],
+.login-signup-box>form>input[type="password"] {
+    display: block;
+    margin: 10px 0px;
+}
+
+.form-title {
+    width: 100%;
+    text-align: center;
+    padding: 10px 16px;
+}
+.login-signup-box>form>input[type="text"],
+.login-signup-box>form>input[type="email"],
+.login-signup-box>form>input[type="date"],
+.login-signup-box>form>input[type="password"],
+.login-signup-box>form>textarea {
+    width: 100%;
+    background: var(--secondary-bg-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 16px;
+    color: white;
+
+}
+.login-signup-box>form>input[type="radio"] {
+    margin: 0px 10px 10px 10px;
+}
+.login-signup-box>form>input[type="checkbox"] {
+    margin: 10px 10px 10px 0px;
+}
+.login-signup-box>form>.member {
+    width: 100%;
+    text-align: center;
+
+}
+.member a {
+    color: goldenrod;
+}
+.login-signup-box>form>button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #3A75B3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+/**DASHBOARD FORMS**/

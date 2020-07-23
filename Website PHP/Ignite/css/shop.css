@@ -1,0 +1,84 @@
+.banner-section {
+    background: url("../img/hero-banner2.jpg");
+}
+.shop-banner {
+    height: 100px;
+    background: var(--secondary-bg-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 20px;
+}
+.shop-name {
+    font-size: 34px;
+    font-weight: 700;
+    text-shadow: 2px 3px black;
+}
+
+/**
+    CATEGORY DROPDOWN
+*/
+.category-section>div {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: white;
+
+  }
+.category-section>.container>div>label {
+    margin-right: 10px;
+}
+  
+.dropdown-content {
+display: none;
+position: absolute;
+background-color:var(--secondary-bg-color);
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+z-index: 999999;
+border-radius: 5px;
+}
+.dropdown-box {
+    background: var(--primary-bg-color);
+    padding: 5px 16px;
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+.dropdown-box>span>span {
+    float: right;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+
+}
+
+/**
+    
+*/
+.category-dropdown {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.category-dropdown li {
+    width: 100%;
+    text-align: center;
+    padding: 10px 16px;
+    border-bottom: 2px solid black;
+}
+.category-dropdown li:hover {
+    background: var(--secondary-bg-color);
+    border-bottom: 2px solid yellow;
+}
+.category-dropdown a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
